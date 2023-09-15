@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <NavigationContainer onReady={onLayoutView}>
-      <StatusBar translucent backgroundColor="rgba(0, 0, 0, 0.1)" />
+      <StatusBar backgroundColor="#0f172a" style="light" />
       <MainNavigator />
     </NavigationContainer>
   )
