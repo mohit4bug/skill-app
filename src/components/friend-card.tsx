@@ -1,4 +1,4 @@
-import { Text, View, TouchableOpacity } from 'react-native'
+import { Text, View, TouchableOpacity, Image } from 'react-native'
 import { Ionicons as Icon } from '@expo/vector-icons'
 
 const FriendCard = () => {
@@ -7,7 +7,12 @@ const FriendCard = () => {
       {/* Top */}
       <View className="flex-row justify-between">
         <View className="flex-row items-center space-x-4">
-          <View className="h-14 w-14 rounded-full bg-slate-800" />
+          <Image
+            source={{
+              uri: 'https://avatars.githubusercontent.com/u/106902205?v=4',
+            }}
+            className="h-14 w-14 rounded-full object-cover"
+          />
           <Text
             className="text-2xl text-neutral-100"
             style={{
