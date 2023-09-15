@@ -1,5 +1,5 @@
 import { Ionicons as Icon } from '@expo/vector-icons'
-import { ScrollView, StatusBar, Text, View } from 'react-native'
+import { ScrollView, Text, View } from 'react-native'
 import * as Animatable from 'react-native-animatable'
 import SkillMeter from '../components/skill-meter'
 import { SafeAreaView } from 'react-native-safe-area-context'
