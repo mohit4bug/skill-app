@@ -22,6 +22,7 @@ const MainNavigator = () => {
           borderColor: 'transparent',
           height: 60,
         },
+        tabBarHideOnKeyboard: true,
       }}
     >
       {Tabs.map((tab, idx) => (

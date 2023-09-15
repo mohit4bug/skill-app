@@ -9,7 +9,7 @@ const ProfileScreen = () => {
     <SafeAreaView className="flex-1">
       <ScrollView className="flex-1 bg-slate-900 px-5">
         {/* Top */}
-        <View className="h-36 justify-center">
+        <View className="justify-center">
           <View className="border-b border-slate-700 py-5">
             <Text
               className="text-5xl text-slate-100 py-1"
